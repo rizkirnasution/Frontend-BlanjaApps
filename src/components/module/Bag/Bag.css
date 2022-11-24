@@ -1,0 +1,199 @@
+
+.bag-my{
+   margin-top: 90px;
+}
+.card-details {
+  padding: 30px;
+  border-radius: 11px;
+}
+.delete{
+    color: #DB3022;
+}
+.checklist{
+    margin-left:20px;
+}
+
+.customcheck input {
+    position: relative;
+    opacity: 0;
+    cursor: pointer;
+}
+.customchek input {
+    position: relative;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 10;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+.checkmak {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.customcheck:hover input ~ .checkmark,.checkmak {
+    background-color: #ccc;
+}
+
+.customcheck input:checked ~ .checkmark{
+    background-color: #DB3022;
+    border-radius: 5px;
+}
+.customcheck input:checked ~ .checkmak{
+    background-color: #DB3022;
+    border-radius: 5px;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.checkmak:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.customcheck input:checked ~ .checkmark:after {
+    display: block;
+}
+.customcheck input:checked ~ .checkmak:after {
+    display: block;
+}
+
+.customcheck .checkmark:after {
+    left: 8px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.customcheck .checkmak:after {
+    left: 8px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.img-products{
+    border-radius: 3px;
+     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+     width: 100px;
+     height: 100px;
+}
+.check{
+  margin-top: -10px !important;
+  position: relative;
+}
+.check-select{
+  margin-top: -3px !important;
+  position: relative;
+}
+.table{border-bottom:none #fff !important;}
+.select-all{
+   height: 70px;
+}
+
+.min{
+    border-radius: 50%;
+     background-color: #D4D4D4;
+     border: 0;
+}
+.min:hover{
+     background-color: #aca2a2;
+}
+.max{
+    border-radius: 50%;
+}
+.one{
+    margin-left: -500px !important;
+}
+.btn-checkout{
+    background-color: #DB3022;
+    border-radius: 40px;
+    color: #fff;
+}
+.title-shoping{
+    font-weight: 600;
+font-size: 18px;
+line-height: 16px;
+color: #222222;
+}
+.sum-price{
+   color: #9B9B9B;
+   font-weight: 500;
+   line-height: 16px;
+}
+.footer{
+  margin-top: 140px;
+}
+@media (max-width: 768px) {
+          /* versi table */
+   .post{
+       font-size: 16px;
+   }
+}
+@media (max-width: 576px) {
+          /* versi mobile */
+    .nav-search{
+    /* background-color: red; */
+    margin: 20px 0px 3px -80px;
+    width: 300px;
+  }
+  .card-details{
+      margin-bottom: 100px;
+  }
+  .filter{
+    /* background-color: blue; */
+    margin-left: -70px !important;
+  }
+  .filter img{
+    margin-left: -5px;
+  }
+  .post{
+       font-size: 10px;
+   }
+   .sub-post{
+       font-size: 5px;
+       margin-top: -100px !important;
+   }
+   .min,.max{
+       width: 10px;
+       height: 20px;
+       border-radius: 50%;
+       /* background-color: red; */
+   }
+   .icon-max{
+       position: static;
+       margin: -17px 0 0 -6px;
+   }
+   .icon-min{
+       position: static;
+	    margin: -17px 0 0 -7px;
+   }
+   .price{
+       font-size: 10px;
+   }
+      }

@@ -1,0 +1,140 @@
+.img-products{
+    border-radius: 3px;
+     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.table{border-bottom:none #fff !important;}
+.btn-address{
+  border-radius: 20px;
+  border: 1px solid #9B9B9B;
+  width: 50%;
+}
+.my-check{
+   margin-top: 90px;
+}
+.min{
+    border-radius: 50%;
+     background-color: #D4D4D4;
+     border: 0;
+}
+.max{
+    border-radius: 50%;
+}
+.one{
+    margin-left: -500px !important;
+}
+.btn-checkout{
+    background-color: #DB3022;
+    border-radius: 40px;
+    color: #fff;
+}
+.title-shoping{
+    font-weight: 600;
+font-size: 18px;
+line-height: 16px;
+color: #222222;
+}
+.total-price{
+   color: #9B9B9B;
+   font-weight: 500;
+   line-height: 16px;
+}
+.price{
+  font-weight: bold;
+}
+.total-shopping{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  margin-top: 20px;
+}
+.post, .sub-post{
+  margin-left: -10px;
+}
+.footer{
+  margin-top: 140px;
+}
+.add-adress{
+  /* width: 100px; */
+  height: 100px;
+  border: 1px dashed  #949599;
+}
+.title-add{
+  font-weight: 600;
+font-size: 18px;
+line-height: 18px;
+text-align: center;
+margin-top: 10px;
+}
+.address{
+  border: 1px solid #DB3022;
+  height: 140px;
+}
+.address-content{
+  font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+}
+.address-new, .address-change{
+  font-weight: 600;
+font-size: 16px;
+line-height: 16px;
+}
+@media (max-width: 768px) {
+          /* versi table */
+   .post{
+       font-size: 16px;
+   }
+}
+@media (max-width: 576px) {
+          /* versi mobile */
+    .nav-search{
+    /* background-color: red; */
+    margin: 20px 0px 3px -80px;
+    width: 300px;
+  }
+   .my-check{
+    margin-top: 10px;
+  }
+  .filter{
+    /* background-color: blue; */
+    margin-left: -70px !important;
+  }
+  .filter img{
+    margin-left: -5px;
+  }
+    .post{
+       font-size: 10px;
+   }
+   .sub-post{
+       font-size: 5px;
+       margin-top: -100px !important;
+   }
+   .min,.max{
+       width: 10px;
+       height: 20px;
+       border-radius: 50%;
+       /* background-color: red; */
+   }
+   .icon-max{
+       position: static;
+       margin: -17px 0 0 -6px;
+   }
+   .icon-min{
+       position: static;
+	    margin: -17px 0 0 -7px;
+   }
+   .price{
+       font-size: 10px;
+       font-weight: bold;
+   }
+   .btn-address{
+    width: 100%;
+   }
+   .address{
+     height: 200px;
+   }
+   .address-content{
+     /* font-size: 10px; */
+     line-height: 20px;
+   }
+}

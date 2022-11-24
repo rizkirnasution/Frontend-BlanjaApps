@@ -1,0 +1,128 @@
+/* html,
+body {
+  height: 100%;
+} */
+
+/* body {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  background-color: #fff;
+  font-family: 'metropolis';
+} */
+ @font-face /*perintah untuk memanggil font eksternal*/
+{
+    font-family: 'metropolis'; /*memberikan nama bebas untuk font*/
+    src: url('../../components/module/home//metropolis.regular.otf');/*memanggil file font eksternalnya di folder nexa*/
+}
+.title-login{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    /* font-family:monospace */
+}
+.nav-login {
+    margin: 0 18px 0 18px;
+}
+.costemer, .seler {
+    border: 1px solid #9B9B9B;
+    border-radius: 4px 0px 0px 4px;
+    background-color: #fff;
+    /* margin-left: 10px; */
+    color: #9B9B9B;
+}
+.selers {
+    border: 1px solid #9B9B9B;
+    border-radius: 0px 4px 4px 0px;
+  background-color: fff; 
+   color: rgb(20, 20, 20);
+}
+.selers:hover {
+    border: 1px solid #9B9B9B;
+    border-radius: 0px 4px 4px 0px;
+  background-color: fff; 
+   color: rgb(22, 20, 20);
+}
+.seler {
+    border: 1px solid #9B9B9B;
+    border-radius: 0px 4px 4px 0px;
+  background-color: #DB3022; 
+    color: #ffffff;
+}
+.seler-login, .costemer-login{
+    background-color: #DB3022;
+    border-radius: 0 !important;
+    color: #fff;
+}
+.seler-login{
+    border-radius: 0px 5px 5px 0px;
+}
+.costemer{
+   background-color: #DB3022; 
+   color: #fff;
+}
+.costemers{
+   background-color: #fafafa; 
+   color: rgb(0, 0, 0);
+   border: 1px solid #9B9B9B;
+}
+.costemer:hover{
+    background-color: #DB3022 ;
+    color: #fff;
+     border: 1px solid #9B9B9B;
+}
+.costemers:hover{
+    background-color: #ffffff ;
+    color: rgb(0, 0, 0);
+     border: 1px solid #9B9B9B;
+}
+.seler:hover{
+    background-color: #DB3022 ;
+     color: #fff;
+      border: 1px solid #9B9B9B;
+      border-radius: 0 5px 5px 0;
+}
+/* ::-webkit-input-placeholder { 
+  font-size: 100px;
+} */
+.header-login{
+    padding: 0 15px 15px 15px;
+    text-align: center;
+}
+.form-signin {
+  width: 100%;
+  max-width: 400px;
+  padding: 5px;
+  margin-top: 50px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-sign{
+    background-color: #DB3022;
+    border-radius: 25px;
+    color: #fff;
+}
+.btn-sign:hover{
+    background-color: #cc2314;
+     color: #fff;
+}
+.float-end{
+    color: red;
+}
+.form-email, .form-password{
+    height: 48px !important;
+}
+.register{
+    color: #222222;
+    text-align: center;
+}
+.page-register,.page-login{
+    color: #cc2314;
+    margin-left: 4px;
+    cursor: pointer;
+    text-decoration:none;
+    text-align: center;
+}

@@ -1,0 +1,73 @@
+.edit-profil{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9B9B9B;
+    margin-top: -8px;
+}
+/* .btn{
+  border-radius: 50%;
+} */
+.text-profil{
+  font-weight: 600;
+}
+.select-profil{
+    background-color: #fff;
+    height: 1910px !important;
+    margin-top: -10px !important;
+    /* margin-left: -100px !important; */
+}
+.profil-avatar,.profil-select{
+  margin-left: 120px;
+}
+.profil-form{
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.image,.image-text{
+  margin-top: 70px;
+}
+.title-dashboard{
+  font-weight: 800;
+font-size: 15px;
+line-height: 24px;
+margin-top: 5x;
+}
+@media (max-width: 576px) {
+  .search-nav{
+    /* width: 100% !important; */
+    margin-left: -80px;
+    margin-top: 10px;
+    /* background-color: red; */
+  }
+  .filter{
+    float: right;
+    margin: 5px;
+    width: 25%;
+      /* background-color: blue; */
+    margin-left: -70px !important;
+  }
+  .profil-avatar, .profil-select{
+    margin-left: 10px !important;
+    margin-top: 40px;
+  }
+  .photo-form{
+      border: 1px dotted #D4D4D4;
+      border-radius: 4px;
+      height: 1500px;
+  }
+  .upload{
+      margin-top: 22px !important;
+  }
+  .select-profil{
+      height: 480px !important;
+      margin-top: 5px !important;
+  }
+  .image,.image-text{
+    margin-top: 5px;
+  }
+  .profil-form{
+    margin-left: 2px;
+    margin-top: -15px !important;
+  }
+}

@@ -1,0 +1,13 @@
+.populer{
+    height: 207px;
+    object-fit: cover !important;
+}
+
+.form-sort{
+    width: 150px;
+}
+
+.productimg{
+    height: 207px;
+    object-fit: cover !important;
+}

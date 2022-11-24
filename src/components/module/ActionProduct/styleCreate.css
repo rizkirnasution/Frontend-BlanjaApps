@@ -1,0 +1,192 @@
+
+.card{
+     box-shadow: 0 0px 5px rgb(0 0 0 / 0.2);
+     border-radius: 5px;
+}
+.my-bag{
+    margin-top: 60px;
+    overflow-x: hidden;
+}
+/* .btn{
+  border-radius: 50%;
+} */
+.select-profil{
+    background-color: #fff;
+    height: 1840px;
+    margin-top: -10px !important;
+    /* margin-left: -100px !important; */
+}
+.profil-avatar,.profil-select{
+  margin-left: 120px;
+}
+.profil-form{
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.image,.image-text{
+  margin-top: 70px;
+}
+.title-selling{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222222;;
+    margin-left: 12px;
+}
+/* webkit solution */
+/* ::-webkit-input-placeholder { 
+  text-align:right; 
+  font-size: 14px;
+} */
+.post{
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.title-dashboard{
+  font-weight: 800;
+font-size: 15px;
+line-height: 24px;
+margin-top: 5x;
+}
+.btn-acount{
+     background-color: #456BF3;
+    border:  0px;
+}
+.btn-location{
+   background-color: #F36F45;
+    border:  0px;
+}
+.btn-mail{
+    background-color: #F3456F;
+    border:  0px;
+}
+.btn-acount:hover{
+    background-color: #4663ca;   
+    border:  0px;
+}
+.btn-location:hover{
+
+     background-color: #d66b4a;
+    border:  0px;
+}
+.btn-mail:hover{
+    background-color: #ec7591;
+    border:  0px;
+}
+.photo-form{
+    border: 2px dashed #D4D4D4;
+    border-radius: 4px;
+    height: 340px;
+}
+.btn-upload{
+    border-radius: 15px;
+    background-color: #ffffff;
+    color: #9B9B9B;
+    border: 1px solid #9B9B9B;
+}
+.garis{
+    border: 1px solid #c4c3c3;
+    display: block;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.line{
+  border-top: 2px solid #dfdfdf;
+  margin-left: -15px;
+  width: 776px;
+  margin-top: 20px;
+}
+.description{
+    height: 400px;
+}
+textarea{
+  height: 280px;
+  margin-top: 10px;
+}
+.btn-jual{
+    border-radius: 20px;
+    background-color: #DB3022;
+    width: 100px;
+    color: #fff;
+    margin-left: 150px;
+}
+.btn-jual:hover{
+  background-color: #d11605;
+  color: #fff;
+}
+/* .footer{
+  margin-top: 80px;
+} */
+@media (max-width: 576px) {
+  .nav-search{
+    /* background-color: red; */
+    margin: 20px 0px 3px -80px;
+    width: 300px;
+  }
+  .filter img{
+    margin-left: -5px;
+  }
+  .text-form{
+        text-align: justify !important;
+  }
+  .btn-submit{
+      border-radius: 16px;
+      background-color: #DB3022;
+      width: 80px;
+      color: #fff;
+      margin-left: 10px;
+  }
+  .search-nav{
+    /* width: 100% !important; */
+    margin-left: -80px;
+    margin-top: 10px;
+    /* background-color: red; */
+  }
+  .filter{
+    float: right;
+    margin: 5px;
+    width: 25%;
+      /* background-color: blue; */
+    margin-left: -70px !important;
+  }
+  .profil-avatar, .profil-select{
+    margin-left: 10px !important;
+    margin-top: 40px;
+  }
+  .photo-form{
+      border: 1px dotted #D4D4D4;
+      border-radius: 4px;
+      height: 1500px;
+  }
+  .upload{
+      margin-top: 22px !important;
+  }
+  .select-profil{
+      height: 390px;
+      margin-top: -30px !important;
+  }
+  .image,.image-text{
+    margin-top: 5px;
+  }
+  .profil-form{
+    margin-left: 2px;
+  }
+  .line{
+    /* border-top: 2px solid #dfdfdf; */
+    margin-left: -15px;
+    width: 350px;
+    /* margin-top: 25px; */
+  }
+  .name-input{
+    margin-left: -5px !important;
+  }   
+  .card-image{
+    border: 1px solid #fff;
+    width: 230px;
+    margin-left: -10px !important;
+  }
+  .btn-jual{
+    margin-right: 20px;
+    margin-bottom: 100px;
+  }  
+}
