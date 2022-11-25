@@ -31,7 +31,7 @@ useEffect(() => {
 const datas = async () => {
   const token = localStorage.getItem("token");
   const response = await axios.get(
-    `${process.env.REACT_APP_API_BACKEND}users/profile`,
+    `${process.env.REACT_APP_API_BACKEND}/users/profile`,
     {
       headers: {
         Authorization: `Bearer ${token}`,
