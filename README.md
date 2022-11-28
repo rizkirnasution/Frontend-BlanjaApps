@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./readme/logo.png" width="200px" height="200px" />
+  <img src="./readme/logoblanja.png" width="200px" height="200px" />
 </div>
 <h3 align="center">Frontend Blanja Apps</h3>
 <p align="center">
